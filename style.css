@@ -1,0 +1,182 @@
+*{
+    margin:0;
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+  }
+  .flex{
+    display:flex;
+    margin: 50px ;
+  }
+  .flex-right{
+    overflow:hidden;
+    width:500px;
+    height:1000px;
+  }
+  .heart {
+    margin:100px;
+    width:100px;
+    transition:all 0.5s;
+    position:relative;
+  }
+  .heart:hover{
+    transform:scale(1.5);
+  }
+  .heart > .left {
+    width:100px;
+    height:100px;
+    position:absolute;
+    background-color:red;
+    border-radius:50% 0% 0% 50% ;
+    transform:rotate(45deg) translateX(-70px);
+  }
+  .heart > .right {
+    width:100px;
+    height:100px;
+    position:absolute;
+    background-color:red; 
+    border-radius:50% 50% 0% 0% ;
+    transform:rotate(45deg) translateY(-70px);
+  }
+  .heart > .bottom {
+    width: 100px;
+    height: 100px;
+    background-color:red;
+    transform:rotate(45deg);
+    border-radius:0% 0% 5% 0%;
+  }
+  .spade {
+    margin:100px;
+    width:100px;
+    transition:all 0.5s;
+    position:relative;
+  }
+  .spade:hover{
+    transform:scale(1.5);
+  }
+  .spade > .left {
+    width:100px;
+    height:100px;
+    position:absolute;
+    background-color:black;
+    border-radius:0% 0% 50% 50% ;
+    transform:rotate(45deg) translateX(-71px);
+  }
+  .spade > .right {
+    width:100px;
+    height:100px;
+    position:absolute;
+    background-color:black; 
+    border-radius:0% 50% 50% 0% ;
+    transform:rotate(45deg) translateY(-71px);
+  }
+  .spade > .top {
+    width: 100px;
+    height: 100px;
+    background-color:black;
+    transform:rotate(45deg);
+    border-radius:0% 0% 5% 0%;
+  }
+  .spade > .bottom {
+    width: 30px;
+    height: 60px;
+    position:absolute;
+    background-color:black;
+    transform:translate(35px,10px)
+  }
+  .diamo{
+    position:relative;
+    margin-top:20px;
+    margin-left:100px;
+    transition:all 0.5s;
+  }
+  .diamo:hover{
+    transform:scale(1.3);
+  }
+  .diamo >.square{
+    width: 200px;
+    height: 200px;
+    background-color:red;
+  }
+  .diamo > .circle-one {
+    width: 200px;
+    height: 200px;
+    background-color:white;
+    position:absolute;
+    border-radius:50%;
+    transform:translate(-100px,-300px)
+  }
+  .diamo > .circle-two {
+    width: 200px;
+    height: 200px;
+    background-color:white;
+    position:absolute;
+    border-radius:50%;
+    transform:translate(100px,-300px)
+  }
+  .diamo > .circle-three {
+    width: 200px;
+    height: 200px;
+    background-color:white;
+    position:absolute;
+    border-radius:50%;
+    transform:translate(-100px,-100px)
+  }
+  .diamo > .circle-four {
+    width: 200px;
+    height: 200px;
+    background-color:white;
+    position:absolute;
+    border-radius:50%;
+    transform:translate(100px,-100px)
+  }
+  .club {
+    width:100px;
+    height:100px;
+    margin-top:100px;
+    margin-left:150px;
+    position:relative;
+    transition:all 0.5s;
+  }
+  .club:hover{
+    transform:scale(1.5);
+  }
+  .club>.top {
+    width: 100px;
+    height: 100px;
+    background-color:black;
+    border-radius:50%;
+    position:absolute;
+    transform:translateY(-70px);
+  }
+  .club>.left {
+    width: 100px;
+    height: 100px;
+    background-color:black;
+    border-radius:50%;
+    position:absolute;
+    transform:translateX(-70px);
+  }
+  .club>.right {
+    width: 100px;
+    height: 100px;
+    background-color:black;
+    border-radius:50%;
+    position:absolute;
+    transform:translateX(70px)
+  }
+  .club>.bottom {
+    width: 100px;
+    height: 100px;
+    background-color:black;
+    border-radius:50%;
+    position:absolute;
+  }
+  .club>.bottom-two {
+    width: 50px;
+    height: 100px;
+    background-color:black;
+    transform:translate(25px,50px);
+    position:absolute;
+  }
+  
